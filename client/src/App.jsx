@@ -3,7 +3,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-const API = "http://localhost:5000";
+const API = "https://YOUR-RENDER-BACKEND-URL";
 
 function App() {
   const [tasks, setTasks] = useState([]);
